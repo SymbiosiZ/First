@@ -1,0 +1,21 @@
+import javax.imageio.ImageIO;
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+
+public class Solution {
+    public static void main(String[] args) throws Exception {
+        System.out.println("fdfsdfsdfs");
+        int asdassa = 123;
+         BufferedImage bufImg = null;
+        try
+        {
+            bufImg = ImageIO.read(new File("D:\\Новая папка.xxxxx.PNG"));
+        } catch (IOException e){e.printStackTrace();}
+
+    }
+
+}
